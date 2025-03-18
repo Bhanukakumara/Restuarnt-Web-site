@@ -96,3 +96,26 @@ img{
 .banner-content p{
     color: white;
 }
+
+/* About section */
+.about-img img{
+    width: 85%;
+}
+p.title-p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--primary-clr);
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0;
+}
+p.title-p img{
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+h2.title-h{
+    color: var(--secondary-clr);
+    font-size: 38px;
+}
