@@ -77,3 +77,22 @@ img{
     width: 120px;
     height: auto;
 }
+
+/* banner */
+.banner-sec{
+    background-image: url('../images/banner-bg.jpg');
+    position: relative;
+    padding: 160px 0;
+    background-size: cover;
+}
+.banner-content h6{
+    color: var(--primary-clr);
+    font-size: 20px;
+}
+.banner-content h2{
+    font-size: 48px;
+    color: white;
+}
+.banner-content p{
+    color: white;
+}
