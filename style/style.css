@@ -28,6 +28,7 @@ a{
     color: #000;
     font-size: 15px;
     font-weight: 500;
+    transition: 0.4s ease;
 }
 h1,h2,h3,h4,h5,h6{
     color: var(--primary-clr);
@@ -35,8 +36,44 @@ h1,h2,h3,h4,h5,h6{
     font-weight: bold;
     font-family: "Domine", sans-serif;
     text-transform: capitalize;
+    transition: 0.4s ease;
 }
 img{
     width: 100%;
     transition: 0.4s ease;
+}
+
+/* navbar */
+
+.navbar .navbar-nav .nav-link{
+    color: white;
+    font-size: 16px;
+    padding: 5px 20px !important;
+}
+.navbar .navbar-nav .nav-link:hover{
+    background-color: var(--primary-clr);
+    border-radius: 5px;
+}
+.nav-btn a{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    color: wheat;
+    background-color: var(--primary-clr);
+    gap: 10px;
+    width: max-content;
+}
+.nav-btn a:hover{
+    background-color: var(--secondary-clr);
+}
+.header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background: var(--secondary-clr);
+    z-index: 99;
+}
+.navbar-brand img{
+    width: 120px;
+    height: auto;
 }
