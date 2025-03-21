@@ -197,3 +197,35 @@ h2.title-h{
 .price{
     margin: 0;
 }
+
+
+.testimonial-sec{
+    background-image: url(../images/bg-1.jpg);
+    background-size: cover;
+    background-color: #f3f3f3;
+}
+.test-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.testimonial-box{
+    padding: 40px 30px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+.test-txt p{
+    margin: 15px 0 0;
+}
+.ts-img img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    border-radius: 100%;
+}
+.test-info span{
+    color: var(--secondary-clr);
+    font-weight: 600;
+}
